@@ -1,0 +1,77 @@
+/* SE LE ESTABLECE AL ENCABEZADO UNA IMAGEN DE FONDO Y LA ALTURA DEL MISMO*/
+.Aencabezado {
+    height: 450px;
+    max-width: 100%;
+    background: url(img/HeadRandom.jpg);
+    background-size: cover;
+   
+}
+/*
+SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU CONTENIDO Y SU MUESTRA
+*/
+.Aencabezado {
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/*=====================SECCION 1=============================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
+.SA1 {
+    background-color: blueviolet;
+    
+}
+/* SE ESTABLECE EL ANCHO MAXIMO Y EL MARGEN DE LOS PARRAFOS DE LA SECCION 1*/
+.SA1 p {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+/*=========================SECCION 2=========================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
+.SA2 {
+    background-color: teal;
+    
+    
+}
+/*========================SECCION 3==========================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION Y SE ALINEA EL TEXTO DE LA MISMA. */
+.SA3 {
+    background-color: blue;
+    
+   
+}
+/* SE ESTABLECE EL ANCHO MAXIMO DE LOS PARRAFOS DE LA SECCION 3*/
+.SA3 p {
+    max-width: 450px;
+}
+/*=======================SECCION 4===========================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO Y EL RELLENO DEL ESPACIO DEL FONDO*/
+.SA4 {
+    background-color: brown;
+    
+    
+}
+/*=======================SECCION 5===========================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO Y EL RELLENO DEL ESPACIO DEL FONDO*/
+.SA5 {
+    background-color: darkgreen;
+    
+    
+}
+/*==============================*/
+.blockL
+{
+    position: relative;
+    float: left;
+}
+.blockR
+{
+    position: relative;
+    float: right;
+}
