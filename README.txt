@@ -10,14 +10,17 @@ en cada archivo style de su respectiva pagina.
 3.-En caso de que el paso 2 no funcione, hacer lo siguiente:
  3.1.-abrir Visual Studio Code
  3.2.-Seleccionar File-->Open Workspace--> Seleccionar carpeta contenedora de los archivos.
+4.-En Visual Studio Code, en la seccion de la izquierda, seleccionar complementos y buscar e instalar 
+"Live Server"
+5.-Al finalizar la instalacion, en la seccion inferior, seleccionar "Go Live", se abrira la pagina en su
+navegador.
 Fin.
-==Pruebas==
-==Despliegue==
 ==Construido con==
 Se utilizo HTML para crear la estructura de la pagina, junto con CSS para establecer los deseños
 de dicha pagina
 ==Contribuyendo==
+Los estudiantes López E, Parra C, Mendoza A, Márquez S, de universidad UACJ colaboran en el proyecto 
+con el estudio e investigacion de la informacion y tema principal de la pagina web
 ==Autores==
 -Adlai CG.-
-==Licencia==
 ==Gratitud==

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
     <title>DURAZNO EN ALMIBAR</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="only screen and (max-width: 768px)" href="style.css">
@@ -13,9 +14,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="BDT">
 
-    <header class="Pencabezado">
+    <header class="ANencabezado">
         <h1 class="textoEncabezado">
        VIDA ANAQUEL
         </h1>
@@ -37,54 +38,59 @@
         </nav>
     </div>
 
-    <section class="content SP1">
-        <article class="contain division">
-            <h2 class="title">PROCESO INDUSTRIAL</h2>
-        </article>
-        <article class="contain division">
-           
-            <p>El durazno en almíbar elaborado bajo condiciones industriales tiene una vida de anaquel de aproximadamente 36 meses. Cabe destacar que el tiempo es dependiente de las condiciones en las que esté almacenado.</p>
-            
-        </article>
+    <section class="content SAN1">
+        <section class="content SAN1 bloque">
+            <div data-aos="fade-up">
+                <article class="contain division">
+                    <h2 class="title">PROCESO INDUSTRIAL</h2>
+                </article>
+            </div>
+            <div data-aos="fade-right">
+                <article class="contain division">
+               
+                    <p>El durazno en almíbar elaborado bajo condiciones industriales tiene una vida 
+                        de anaquel de aproximadamente 36 meses. Cabe destacar que el tiempo es
+                         dependiente de las condiciones en las que esté almacenado.</p>
+                    
+                </article>
+            </div>
+        </section>
+        <section class="content SAN1 bloque">
+            <div data-aos="fade-right">
+                <img class="imgShow" src="/css/imgPortadas/imgAnaquelIndustrial.jpeg" alt="">
+           </div>
+        </section>
        
-        
     </section>
 
-    <section class="content SP2">
-        <article class="contain division">
-            <h2 class="title">DURAZNO</h2>
-        </article>
+    <section class="content SAN2">
+        <section class="content SAN2 bloque">
+            <div data-aos="fade-up">
+            <article class="contain division">
+                <h2 class="title">PROCESO ARTESANAL</h2>
+            </article>
+        </div>
+       <div data-aos="fade-right">
         <article class="contain division">
             
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, fugit!
-                <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, magni.
-            </p>
+            <p>La vida de anaquel de los duraznos en almíbar elaborados 
+                de forma artesanal aproximadamente es mayor a 12 meses. A diferencia del
+                 proceso industrial este es algo menor y esto se debe a factores como la calidad de la 
+                 fruta, el proceso térmico, el tipo de envasado, etc. </p>
         </article>
-        
-        
- 
+       </div>
+        </section>
+       <section class="content SAN2 bloque">
+                <div data-aos="fade-right">
+                    <img class="imgShow" src="/css/imgPortadas/imgAnaquelArtesanal.jpg" alt="">
+               </div>
+            </section>
+       
     </section>
 
-    <section class="content SP3">
-        <article class="contain division">
-            <h2 class="title">DURAZNO</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, cum!</p>
-           
-        </article>
-    </section>
-
-    <section class="content SP4">
-        <article class="contain division">
-            <h2 class="title">DURAZNO</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti accusantium,
-                 beatae tempora autem non 
-            aliquid.</p>
-        </article>
-        
-        
-    </section>
+   
     <footer class="pieInfo">
-        <div class="Fimg" >
+        <div class="Fimg" data-aos="fade-up">
             <img src="css/img/GitHub.png" alt="">
             <p> <a href="https://github.com/eriadlai?tab=repositories" class="btn">Mi GitHub</a></p>
             
@@ -94,8 +100,13 @@
           <p>Correo: eri_acg@hotmail.com</p> 
         </div>
         <div class="FI">
-            ©Copyright |Design by Adlai CG.| Miembros Colaborativos | Mendoza, Lopez, Contreras, Parra
+            ©Copyright |Design by Adlai CG.| Miembros Colaborativos | López E, Parra C, Mendoza A, Márquez S
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

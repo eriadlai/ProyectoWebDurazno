@@ -1,0 +1,51 @@
+.CUencabezado {
+    height: 450px;
+    max-width: 100%;
+    background: url(imgPortadas/BCK7.png);
+    background-size: cover;
+   
+}
+/*
+SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU CONTENIDO Y SU MUESTRA
+*/
+.CUencabezado {
+    font-size: 60px;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+/*=====================SECCION 1=============================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
+.SCU1 {
+    background: transparent;
+    
+}
+
+
+/*=========================SECCION 2=========================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
+.SCU2 {
+    background: transparent; 
+    
+}
+/*========================SECCION 3==========================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION Y SE ALINEA EL TEXTO DE LA MISMA. */
+.SCU3 {
+    background: transparent;
+    
+   
+}
+/* SE ESTABLECE EL ANCHO MAXIMO DE LOS PARRAFOS DE LA SECCION 3*/
+.SCU3 p {
+    max-width: 450px;
+}
+/*=======================SECCION 4===========================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO Y EL RELLENO DEL ESPACIO DEL FONDO*/
+.SCU4 {
+    background: transparent;
+    
+    
+}

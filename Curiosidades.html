@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
     <title>DURAZNO EN ALMIBAR</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="only screen and (max-width: 768px)" href="style.css">
@@ -13,9 +14,16 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="BDT">
 
-    <header class="Pencabezado">
+    <div class="container-all" id="imgDiferencia">
+        <div class="popup">
+            <div class="imgDiferencia"></div>
+            <a href="#secDiferencia" class="btn">Volver</a>
+        </div>
+    </div>
+
+    <header class="CUencabezado">
         <h1 class="textoEncabezado">
       CURIOSIDADES
         </h1>
@@ -37,12 +45,13 @@
         </nav>
     </div>
 
-    <section class="content SP1">
-        <article class="contain division">
-            <h2 class="title">HISTORIA</h2>
-        </article>
-        <article class="contain division">
-           
+    <section class="content SCU1">
+        <div data-aos="zoom-in">
+            <article class="contain division">
+                <h2 class="title">HISTORIA</h2>
+            </article>
+        </div>
+        <div data-aos="zoom-in">
             <ul class="col2">
                
                 <li>El arbol de durazno es originario de la china occidental.</li>
@@ -57,47 +66,24 @@
                      después de que la oferta del este no pudiera satisfacer la demanda de duraznos</li>
                
             </ul> 
-            
-        </article>
+        </div>
+    </section>
+    
+    <section class="content SCU3">
+        <div data-aos="fade-right">
+            <article class="contain division" id="secDiferencia">
+                <h2 class="title">DIFERENCIA ENTRE DURAZNO, ALBARICOQUE, CHABACANO Y NECTARINA</h2>
+            </article>
+        </div>
+        <div data-aos="fade-down">
+            <img class="imgDiferenciaSec" src="/css/imgPortadas/imgCuriosidadesPopUp.png" alt="">
+       </div>
        
-        
     </section>
 
-    <section class="content SP2">
-        <article class="contain division">
-            <h2 class="title">DURAZNO</h2>
-        </article>
-        <article class="contain division">
-            
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, fugit!
-                <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, magni.
-            </p>
-        </article>
-        
-        
- 
-    </section>
-
-    <section class="content SP3">
-        <article class="contain division">
-            <h2 class="title">DURAZNO</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, cum!</p>
-           
-        </article>
-    </section>
-
-    <section class="content SP4">
-        <article class="contain division">
-            <h2 class="title">DURAZNO</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti accusantium,
-                 beatae tempora autem non 
-            aliquid.</p>
-        </article>
-        
-        
-    </section>
+    
     <footer class="pieInfo">
-        <div class="Fimg" >
+        <div class="Fimg" data-aos="fade-up">
             <img src="css/img/GitHub.png" alt="">
             <p> <a href="https://github.com/eriadlai?tab=repositories" class="btn">Mi GitHub</a></p>
             
@@ -107,8 +93,12 @@
           <p>Correo: eri_acg@hotmail.com</p> 
         </div>
         <div class="FI">
-            ©Copyright |Design by Adlai CG.| Miembros Colaborativos | Mendoza, Lopez, Contreras, Parra
+            ©Copyright |Design by Adlai CG.| Miembros Colaborativos | López E, Parra C, Mendoza A, Márquez S
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

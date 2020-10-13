@@ -1,17 +1,9 @@
 
-
-.BDT
-{
-    background: url(img/B4.jpg)  center top;
-}
-
-
-
 /* SE LE ESTABLECE AL ENCABEZADO UNA IMAGEN DE FONDO Y LA ALTURA DEL MISMO*/
 .Dencabezado {
     height: 450px;
     max-width: 100%;
-    background: url(imgDurazno/DH1.jpg);
+    background: url(imgPortadas/BCK2.png);
     background-size: cover;
    
 }
@@ -33,13 +25,7 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     background: transparent;
     
 }
-/* SE ESTABLECE EL ANCHO MAXIMO Y EL MARGEN DE LOS PARRAFOS DE LA SECCION 1*/
-.SD1 p {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
-    
-}
+
 
 /*=========================SECCION 2=========================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
@@ -69,47 +55,68 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
 /* SE ESTABLECE LA POSICION DE LAS LISTAS UTILIZADAS A FORMA DE COLUMNAS*/
 .col
 {
-    float: left;
-    width: 50%;
-    margin: 0px;
-    padding: 15px 0px;
-    border: 0px none;
+    text-align: left;
+    display: inline-block;
+    min-height: 30%;
+    max-width: 450px;
+    margin-bottom: 20px;
+    background-size: cover;
     list-style-position: inside;
     list-style-type: square;
     position: relative;
-    left: auto;
-    border-radius: 5px 20px 5px;
+    border-radius: 5px;
     border-color: black;
     border-style:solid;
-   width: fit-content;
-   height: fit-content;
-   margin-bottom: 20px;
    background-color: #ffffff;
    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+}
+.col h3
+{
+    text-align: center;
+}
+.col2 h3
+{
+    text-align: center;
 }
 /* SE ESTABLECE LA POSICION DE LAS LISTAS UTILIZADAS A FORMA DE COLUMNAS*/
 .col2
 {
-    
-    float: right;
-    width: 50%;
-    margin: 0px;
-    padding: 15px 0px;
-    border: 0px none;
-    left: auto;
+    text-align: left;
+    display: inline-block;
+    min-height: 30%;
+    max-width: 450px;
+    margin-bottom: 20px;
+    background-size: cover;
     list-style-position: inside;
     list-style-type: square;
-    border-radius: 5px 20px 5px;
+    border-radius: 5px;
     border-color: black;
     border-style:solid;
-   width: fit-content;
-   height: fit-content;
-   margin-bottom: 20px;
    background-color: #ffffff;
    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+}
+.ListL
+{
+float: left;
+}
+.imgInfo
+{
+    display: inline;
+    
+}
+
+.bloque
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    
 }
 
 
 
 
 
+
+
+  

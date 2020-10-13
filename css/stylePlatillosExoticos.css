@@ -1,15 +1,14 @@
-/* SE LE ESTABLECE AL ENCABEZADO UNA IMAGEN DE FONDO Y LA ALTURA DEL MISMO*/
-.PPencabezado {
+.PLencabezado {
     height: 450px;
     max-width: 100%;
-    background-color: aquamarine;
+    background: url(imgPortadas/BCK5.png);
     background-size: cover;
    
 }
 /*
 SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU CONTENIDO Y SU MUESTRA
 */
-.PPencabezado {
+.PLencabezado {
     font-size: 60px;
     font-family: 'Merriweather', serif;
     display: flex;
@@ -18,42 +17,45 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     
     
 }
+
 /*=====================SECCION 1=============================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
-.SPP1 {
-    background-color: olive;
-    
-}
-/* SE ESTABLECE EL ANCHO MAXIMO Y EL MARGEN DE LOS PARRAFOS DE LA SECCION 1*/
-.SPP1 p {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
+.SPL1 {
+    background: transparent;
     
 }
 
+
 /*=========================SECCION 2=========================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
-.SPP2 {
-    background-color: coral;
+.SPL2 {
+    background: transparent;
     
     
 }
 /*========================SECCION 3==========================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION Y SE ALINEA EL TEXTO DE LA MISMA. */
-.SPP3 {
-    background-color: darkgreen;
+.SPL3 {
+    background: transparent;
     
-   
 }
 /* SE ESTABLECE EL ANCHO MAXIMO DE LOS PARRAFOS DE LA SECCION 3*/
-.SPP3 p {
+.SPL3 p {
     max-width: 450px;
 }
 /*=======================SECCION 4===========================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO Y EL RELLENO DEL ESPACIO DEL FONDO*/
-.SPP4 {
-    background-color: indigo;
+.SPL4 {
+    background: transparent;
     
     
 }
+/*=======================SECCION 5===========================*/
+/* SE ESTABLECE UNA IMAGEN DE FONDO Y EL RELLENO DEL ESPACIO DEL FONDO*/
+.SPL5 {
+    background: transparent;
+    
+    
+}
+/*==============================*/
+

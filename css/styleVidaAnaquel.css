@@ -1,15 +1,15 @@
 /* SE LE ESTABLECE AL ENCABEZADO UNA IMAGEN DE FONDO Y LA ALTURA DEL MISMO*/
-.Pencabezado {
+.ANencabezado {
     height: 450px;
     max-width: 100%;
-    background-color: aquamarine;
+    background: url(/css/imgPortadas/BCK6.png);
     background-size: cover;
    
 }
 /*
 SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU CONTENIDO Y SU MUESTRA
 */
-.Pencabezado {
+.ANencabezado {
     font-size: 60px;
     font-family: 'Merriweather', serif;
     display: flex;
@@ -20,40 +20,34 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
 }
 /*=====================SECCION 1=============================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
-.SP1 {
-    background-color: olive;
-    
-}
-/* SE ESTABLECE EL ANCHO MAXIMO Y EL MARGEN DE LOS PARRAFOS DE LA SECCION 1*/
-.SP1 p {
-    max-width: 100%;
-    margin: 0 auto;
-    display: block;
+.SAN1 {
+    background: transparent;
     
 }
 
+
 /*=========================SECCION 2=========================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
-.SP2 {
-    background-color: coral;
+.SAN2 {
+    background: transparent;
     
     
 }
 /*========================SECCION 3==========================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION Y SE ALINEA EL TEXTO DE LA MISMA. */
-.SP3 {
-    background-color: darkgreen;
+.SAN3 {
+    background: transparent;
     
    
 }
 /* SE ESTABLECE EL ANCHO MAXIMO DE LOS PARRAFOS DE LA SECCION 3*/
-.SP3 p {
+.SAN3 p {
     max-width: 450px;
 }
 /*=======================SECCION 4===========================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO Y EL RELLENO DEL ESPACIO DEL FONDO*/
-.SP4 {
-    background-color: indigo;
+.SAN4 {
+    background: transparent;
     
     
 }

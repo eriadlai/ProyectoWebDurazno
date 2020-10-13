@@ -1,0 +1,243 @@
+.container-all{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 40px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+
+
+.container-all:target{
+    background: rgba(0,0,0,0.8);
+    visibility: visible;
+    opacity: 1;
+}
+
+.container-all:target .popup{
+    top: 50%;
+    left: 50%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    visibility: visible;
+}
+
+
+.popup
+{
+    position:fixed;
+	max-width:100%;
+    width:95%;
+	z-index:2000 !important;
+    margin:auto;
+    height: 500px;
+    display: flex;
+    background: rgb(33, 190, 218);
+    visibility: hidden;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    top: -80%;
+    left: -80%;
+    border-radius: 5px;
+    transform: rotate(90deg) translate(-150%, 230%);
+    transition: all 600ms;
+}
+
+
+.imgMaterial_1{
+    width: 40%;
+    background-image: url(imgPortadas/imgMaterial_1.png);
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+}
+
+.imgMaterial_2{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgMaterial_2.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgMaterial_3{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgMaterial_3.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgMaterial_4{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgMaterial_4.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgPelado_1
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgArtesanalPelado_1.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgPelado_2
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgArtesanalPelado_2.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgPelado_3
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgArtesanalPelado_4.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgPelado_4
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgArtesanalPelado_3.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgPreparacion_1
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgPreparacion_1.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgPreparacion_2
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgPreparacion_2.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgPreparacion_3
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgPreparacion_3.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgPreparacion_4
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgPreparacion_4.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgEnvasado_1
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgEnvasado_1.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgEnvasado_2
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgEnvasado_2.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgEnvasado_3
+{
+    width: 40%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgEnvasado_3.png);
+    background-size: cover;
+    background-position: center;
+}
+.imgDiferencia
+{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+    background-image: url(imgPortadas/imgCuriosidadesPopUp.png);
+    background-size: cover;
+    background-position: center;
+}
+.container-text{
+    width: 60%;
+    padding: 50px;
+    overflow-y: auto;
+}
+
+
+.container-text h1{
+    font-size: 30px;
+}
+
+.container-text p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 900px){
+    .popup{
+        flex-direction: column;
+        height: 100%;
+        max-height: 800px;
+    }
+    
+    .imagen{
+        width: 100%;
+        height: 40%;
+    }
+    .imagenD1{
+        width: 100%;
+        height: 40%;
+    }
+    .imagenD2{
+        width: 100%;
+        height: 40%;
+    }
+    
+    .container-text{
+        width: 100%;
+        height: 60%;
+        padding: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .container-text{
+        padding: 20px;
+    }
+    
+    .container-text h1{
+        font-size: 20px;
+    }
+    
+    .container-text p{
+        font-size: 12px;
+    }
+}
