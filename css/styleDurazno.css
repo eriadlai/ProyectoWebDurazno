@@ -52,7 +52,7 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     
 }
 /*========================================COLUMNAS Y LISTAS==========================*/
-/* SE ESTABLECE LA POSICION DE LAS LISTAS UTILIZADAS A FORMA DE COLUMNAS*/
+/* SE ESTABLECE LA POSICION DE LAS LISTAS UTILIZADAS */
 .col
 {
     text-align: left;
@@ -64,7 +64,7 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     list-style-position: inside;
     list-style-type: square;
     position: relative;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: black;
     border-style:solid;
    background-color: #ffffff;
@@ -89,7 +89,7 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     background-size: cover;
     list-style-position: inside;
     list-style-type: square;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: black;
     border-style:solid;
    background-color: #ffffff;

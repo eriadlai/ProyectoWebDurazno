@@ -1,3 +1,15 @@
+
+/* SE ESTABLECEN LAS MEDIDAS DE TODAS LAS IMAGENES*/
+img
+{
+    width: 30px;
+    height: 30px;
+}
+.BDT
+{
+    
+    background: url(imgPortadas/Portada.png);
+}
 .imgShow
 {
     width: 300px;

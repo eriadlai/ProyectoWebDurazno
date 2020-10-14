@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url(Footer.css);
-@import url(menu.css);
 @import url(reset.css);
 @import url(PopUpbtns.css);
 @import url(styleCuriosidades.css);
@@ -116,7 +115,6 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     max-width: 100%;
     background: url(imgPortadas/BCK1.png) no-repeat center top;
     background-size: cover;
-   
 }
 .BDT
 {
@@ -200,4 +198,11 @@ h3
     color: black;
     font-style: italic;
     font-size: 20px;
+}
+.separacion
+{
+    min-height: 0.5%;
+    max-width: 100%;
+    background-size: cover;
+    background: #101a16;
 }

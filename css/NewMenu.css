@@ -1,0 +1,112 @@
+
+
+
+.HMenu{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #5bd6f5;
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .menu{
+    width: 400px;
+}
+
+.menu{
+    position: fixed;
+    top: 60px;
+    width: 0px;
+    height: 100vh;
+    background: #2D3E50;
+    transition: all 500ms cubic-bezier(1,0,0,1);
+    transition-timing-function: cubic-bezier(1,0,0,1);
+
+    margin:auto;
+    display: flex;
+	position:fixed;
+	z-index:1000;
+    top:0;
+    
+    
+    overflow: hidden;
+}
+.menu li{
+    list-style: none;
+    padding: 16px;
+    cursor: pointer;
+    transition: all 300ms;
+    display: block;
+    width: 400px;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.2);
+}
+
+
+.c-all label{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.c-all h2{
+    position: fixed;
+    width: 100%;
+    max-width: 1000px;
+    top: 14px;
+    font-size: 26px;
+    text-align: right;
+}
+
+
+#sidebar {
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+#sidebar::-webkit-scrollbar {
+    width: 0 !important;
+}
+.ulMenu
+{
+	list-style: none;
+	overflow: hidden;
+}
+
+.opc
+{
+	display: block;
+	padding:10px;
+	color:rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 50px;
+    font-size: 25px;
+}
+.icon-menu
+{
+   display: inline-block;
+   max-width: 100%;
+   max-height: 100%;
+    width: 0;
+    height: 0;
+}
+.icon-menu:hover
+{
+    background: rgba(0,0,0,0.2);
+}
+
+
