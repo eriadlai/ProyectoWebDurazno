@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 @import url(Footer.css);
 @import url(reset.css);
 @import url(PopUpbtns.css);
@@ -41,14 +42,15 @@ img
 .title{
     margin-bottom: 40px;
     font: 60px;
-    text-transform: uppercase;
     display: block;
     margin: 0 auto;
     color: black;
     font-style: italic;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'Sansita Swashed', cursive;
   
 }
+
 /* SE LE ESTABLECE A TODA CLASE PARRAFO (P) UN MARGEN */
 p {
     margin-bottom: 40px;
@@ -56,6 +58,7 @@ p {
     margin: 0 auto;
     max-width: 100%;
     width: 80%;
+    font-family: 'Catamaran', sans-serif;
 }
 /* SE LE ESTABLECE A TODA CLASE CONTENIDO (CONTENT) UN ESPACIADO ENTRE SI Y EL BORDE*/
 .content {
@@ -64,6 +67,7 @@ p {
 }
 /* SE LE ESTABLECE A TODA CLASE CONTENIDO DE ARTICULO (CONTAIN) UN MARGEN Y MAXIMO DE ANCHO */
 .contain {
+    text-align: justify;
     max-width: 100%;
     margin: 0 auto;
 } 
@@ -71,7 +75,7 @@ p {
 .division
 {
    
-    border-radius: 30px;
+    border-radius: 20px;
     border-color: black;
    border-style:solid;
    width: fit-content;
@@ -79,6 +83,30 @@ p {
    margin-bottom: 20px;
    background-color: #fff;
    box-shadow:0px 16px 3px rgba(0,0,0,.5);
+}
+.ele
+{
+    width: 380px;
+}
+.eleInd
+{
+    width: 390px;
+}
+.eleAnaquel
+{
+    width: 340px;
+}
+.eleLav
+{
+    width: 350px;
+}
+.eleMetal
+{
+    width: 140px;
+}
+.eleGour
+{
+    width: 190px;
 }
 /* SE LE ESTABLECE A TODA CLASE SECTION (SECCIONES) UN MINIMO Y MAXIMO DE MARGEN Y UN COLOR DE LETRA*/
 section
@@ -125,7 +153,7 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
 /*=====================SECCION 1=============================*/
 /* SE ESTABLECE UNA IMAGEN DE FONDO A LA SECCION*/
 .S1 {
-    background: url(imgPortadas/btnDurazno2.png) no-repeat center;
+    background: url(imgPortadas/btnDurazno.png) no-repeat center;
     color: black;
     
 }
@@ -206,3 +234,4 @@ h3
     background-size: cover;
     background: #101a16;
 }
+
