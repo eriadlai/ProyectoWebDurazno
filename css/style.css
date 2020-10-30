@@ -47,7 +47,7 @@ img
     color: black;
     font-style: italic;
     font-size: 50px;
-    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Grandstander', cursive;
   
 }
 
@@ -58,7 +58,7 @@ p {
     margin: 0 auto;
     max-width: 100%;
     width: 80%;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Grandstander', cursive;
 }
 /* SE LE ESTABLECE A TODA CLASE CONTENIDO (CONTENT) UN ESPACIADO ENTRE SI Y EL BORDE*/
 .content {
@@ -85,17 +85,21 @@ p {
    background-color: #fff;
    box-shadow:0px 16px 3px rgba(0,0,0,.5);
 }
+.eles
+{
+    width: 280px;
+}
 .ele
 {
-    width: 380px;
+    width: 220px;
 }
 .eleInd
 {
-    width: 390px;
+    width: 230px;
 }
 .eleAnaquel
 {
-    width: 340px;
+    width: 220px;
 }
 .eleLav
 {
@@ -214,10 +218,7 @@ AL PASAR EL MOUSE POR ENCIMA, EL BOTON CAMBIARA DE COLOR SU FONDO.
     background: #9DD850;
 }
 /*SE ESTABLECE LA IMAGEN DE FONDO DEL PIE DE PAGINA*/
-.pieInfo
-{
-    background: url(img/B6.jpg) no-repeat center top;
-}
+
 h3
 {
     margin-bottom: 10px;

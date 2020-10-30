@@ -6,15 +6,16 @@
 .pieInfo
 {
    color: white;
+   background: rgb(71, 73, 73);
    height: 170px;
- position: relative;
+   position: relative;
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    box-shadow:0px 4px 3px rgba(0,0,0,.5);
 }
 /* SE ESTABLECE EL COLOR DE LETRA Y FONDO DEL PIE DE PAGINA, JUNTO CON LA ALTURA, ANCHURA Y POSICION*/
 .FI
 {
-    background: rgb(71, 73, 73);
+    
     color: black;
     height: 20px;
     width: 100%;
@@ -23,7 +24,14 @@
     bottom: 0px;
     left: 0px;
      padding-top: 20px;
-     box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+.Fblok
+{
+    display: inline-block;
+}
+.Fblok2
+{
+    display: inline-block;
 }
 /*SE ESTABLECEN LAS MEDIDAS POSICION Y COLOR DE LAS OPCIONES DEL PIE DE PAGINA*/
 .Fimg
@@ -33,7 +41,6 @@
     float: none;
    bottom: 0;
    color: black;
-   box-shadow:0px 4px 3px rgba(0,0,0,.5);
     
 }
 /*SE ESTABLECEN LAS MEDIDAS POSICION Y COLOR DE LAS OPCIONES DEL PIE DE PAGINA*/
@@ -43,15 +50,6 @@
     padding: 0;
    bottom: 0;
    color: black;
-   box-shadow:0px 4px 3px rgba(0,0,0,.5);
    float: none;
 }
-/*SE ESTABLECE EL COLOR DE FONDO AL PASAR EL MOUSE POR ENCIMA DE ESTAS OPCIONES*/
-.Fimg:hover
-{
-    background-color: teal;
-}
-.Fimg2:hover
-{
-    background-color: teal;
-}
+
