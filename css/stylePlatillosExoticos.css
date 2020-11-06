@@ -14,8 +14,6 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 /*=====================SECCION 1=============================*/
@@ -58,4 +56,10 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     
 }
 /*==============================*/
+.pop
+{
+
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+}
 
