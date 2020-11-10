@@ -67,7 +67,7 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     border-radius: 10px;
     border-color: black;
     border-style:solid;
-   background-color: #ffffff;
+   background-color: #f9f7d9;
    box-shadow:0px 16px 3px rgba(0,0,0,.5);
    font-family: 'Grandstander', cursive;
    
@@ -95,7 +95,7 @@ SE LE ESTABLECE AL ENCABEZADO UN TIPO DE LETRA, UN TAMANO DE LETRA, ALINEAR SU C
     border-radius: 10px;
     border-color: black;
     border-style:solid;
-   background-color: #ffffff;
+   background-color: #f9f7d9;
    box-shadow:0px 16px 3px rgba(0,0,0,.5);
    font-family: 'Grandstander', cursive;
 }
